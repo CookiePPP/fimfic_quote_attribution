@@ -1,0 +1,11 @@
+{
+  "fimfarchive_path": "../fimfarchive",
+  "attr_dict_path": "attr_list.pt",
+  "verbs_for_said_path": "verbs_for_said.txt",
+  "custom_implications_path": "custom_implications.txt",
+  "min_character_samples": 100,
+  "character_ignore_list_train": ["Like I"],
+  "character_blacklist_infer": ["It", "Dr", "Mr", "Ms", "Mrs", "Miss", "Her", "He", "She", "Pegasus", "Pony", "Princess", "Unicorn", "Alicorn", "Captain", "Guard", "Librarian", "TheAlicorn", "Night"],
+  "female_characters": ["Twilight", "Rarity", "Applejack", "Celestia", "Luna", "Fluttershy", "Rainbow", "Pinkie", "Rainbow Dash", "Sunset", "Scootaloo", "Dash", "Apple Bloom", "Trixie", "Sweetie Belle", "Pinkie Pie", "Starlight", "Lyra", "Vinyl", "Chrysalis", "Octavia", "Applebloom", "Cadence", "Derpy", "Cadance", "Sweetie", "Spitfire"],
+  "init_token": "Mary"
+}
