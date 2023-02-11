@@ -3,3 +3,9 @@
 This repo is currently abandoned. The developer is busy with other stuff.
 
 The best model achieves 88% accuracy and works really well for making fully voiced AI Audiobooks, however it's got a lot of small bugs I need to fix before it's good for general usage.
+
+---
+
+Because the model predicts the easiest tokens first and uses it's own prediction as labels, the model is very consistent even when it's wrong.
+
+For example, in one story there is an unnamed Librarian character, and the model automatically gave that character the voice of Twilight Sparkle and plays the entire scene with her acting in place of the actual Librarian.
