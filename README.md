@@ -18,3 +18,5 @@ TODO
   Most examples with 'the' prefix are not names and don't have assigned voices.
 
 - [ ] Use 'she'/'he' prefix to constrain model outputs during inference and allow user to specify the genders of OC's and characters.
+
+- [ ] Allow user to specify which characters appear in the scene/book, so those tokens can be boosted.
