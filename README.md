@@ -9,3 +9,12 @@ The best model achieves 88% accuracy and works really well for making fully voic
 Because the model predicts the easiest tokens first and uses it's own prediction as labels, the model is very consistent even when it's wrong.
 
 For example, in one story there is an unnamed Librarian character, and the model automatically gave that character the voice of Twilight Sparkle and plays the entire scene with her acting in place of the actual Librarian.
+
+----
+
+TODO
+
+- [ ] Remove samples with "the {X} {said}"
+  Most examples with 'the' prefix are not names and don't have assigned voices.
+
+- [ ] Use 'she'/'he' prefix to constrain model outputs during inference and allow user to specify the genders of OC's and characters.
